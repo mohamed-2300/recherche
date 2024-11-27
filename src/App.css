@@ -1,0 +1,129 @@
+/* App.css */
+
+/* Style général */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4faff; /* Fond doux bleu clair */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Texte général */
+}
+
+/* Conteneur principal */
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc pur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 2px solid #0077ff; /* Bordure bleu électrique */
+}
+
+/* Titre principal */
+h1 {
+  color: #ff6600; /* Orange vif */
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #0077ff; /* Ombre bleu électrique */
+}
+
+/* Liste des articles */
+.article-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* Article individuel */
+.article {
+  border: 2px solid #0077ff; /* Bordure bleu électrique */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: #fffbeb; /* Fond jaune doux */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+  color: #0077ff; /* Bleu électrique */
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+.article p {
+  margin: 5px 0;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Section des commentaires */
+.comments-section {
+  margin-top: 20px;
+  border-top: 2px solid #0077ff; /* Séparateur bleu électrique */
+  padding-top: 15px;
+}
+
+.comments-section h3 {
+  color: #ff6600; /* Orange vif */
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  background-color: #ffffcc; /* Fond jaune pastel */
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #333;
+  font-size: 0.9em;
+}
+
+/* Formulaire de commentaire */
+form {
+  margin-top: 15px;
+}
+
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0077ff; /* Bordure bleu électrique */
+  border-radius: 8px;
+  font-size: 1em;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #ff6600; /* Bouton orange vif */
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #cc5200; /* Orange foncé au survol */
+}
+
+/* Effet de focus */
+form textarea:focus, form button:focus {
+  outline: none;
+  border-color: #0056cc; /* Bleu plus foncé */
+}
+
+/* Footer (optionnel) */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
